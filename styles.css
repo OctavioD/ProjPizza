@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    background-color: #222222;
+}
+header .pizza .blanco{
+    color: white;
+}
+header .pizza .rojo{
+    color: red;
+}
+header .pizza .verde{
+    color: green;
+}
+header nav.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main .repartidor{
+    background-image: url(/ProjPizza/img/delivery.jpg);
+}
+main .podio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+footer nav.nav-bot{
+    color: white;
+}
+footer .pizza-bot .blanco{
+    color: white;
+}
+footer .pizza-bot .rojo{
+    color: red;
+}
+footer .pizza-bot .verde{
+    color: green;
+}
