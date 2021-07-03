@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/*HEADER*/
+
 header{
     display: flex;
     flex-direction: row;
@@ -10,18 +13,23 @@ header{
     background-color: #222222;
     box-shadow: 0px 1px 3px 0px grey;
 }
+
 header .pizza{
     font-size: 24px;
 }
+
 header .pizza .blanco{
     color: white;
 }
+
 header .pizza .rojo{
     color: red;
 }
+
 header .pizza .verde{
     color: green;
 }
+
 header nav.nav{
     display: flex;
     flex-direction: row;
@@ -29,6 +37,9 @@ header nav.nav{
     width: 25%;
     color: white;
 }
+
+/*MAIN*/
+
 main{
     display: flex;
     flex-direction: row;
@@ -36,11 +47,13 @@ main{
     align-items: center;
     height: 70vh;
 }
+
 main .card{
     height: 60vh;
     width: 45%;
     border-radius: 0.4em;
 }
+
 main .card.repartidor{
     background-image: url(/ProjPizza/img/delivery.jpg);
     display: flex;
@@ -51,26 +64,42 @@ main .card.repartidor{
     background-size: cover;
     margin-right: 1vw;
 }
+
 main .repartidor p{
     color: red;
     font-weight: 800;
     font-size: 24px;
 }
+
 main .repartidor p .blanco{
     color: white;
 }
+
 main .card.podio{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 1vw;
 }
+
+main .card.podio h2{
+    text-align: center;
+    color: red;
+}
+
+main .card.podio article .pizzas h3{
+    padding-left: 2.5rem;
+}
+
 main .podio article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+/*FOOTER*/
+
 footer{
     display: flex;
     flex-direction: row;
@@ -78,15 +107,19 @@ footer{
     align-items: center;
     background-color: #222222;
 }
+
 footer nav.nav-bot{
     color: white;
 }
+
 footer .pizza-bot .blanco{
     color: white;
 }
+
 footer .pizza-bot .rojo{
     color: red;
 }
+
 footer .pizza-bot .verde{
     color: green;
 }
