@@ -36,18 +36,20 @@ main{
     align-items: center;
     height: 70vh;
 }
-main .repartidor{
+main .card{
+    height: 60vh;
+    width: 45%;
+    border-radius: 0.4em;
+}
+main .card .repartidor{
     background-image: url(/ProjPizza/img/delivery.jpg);
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    height: 60vh;
-    width: 45%;
-    border-radius: 0.4em;
     padding-left: 1.2em;
     background-size: cover;
-    margin-right: 2vw;
+    margin-right: 1vw;
 }
 main .repartidor p{
     color: red;
@@ -57,10 +59,11 @@ main .repartidor p{
 main .repartidor p .blanco{
     color: white;
 }
-main .podio{
+main .card .podio{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-left: 1vw;
 }
 main .podio article{
     display: flex;
