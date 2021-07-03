@@ -94,7 +94,7 @@ main .card.podio h2{
     color: red;
 }
 
-main.card.podio article{
+main .card.podio article{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
