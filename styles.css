@@ -98,6 +98,8 @@ main.card.podio article{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 75%;
+    align-items: center;
 }
 
 main .card.podio article .pizzas h3{
