@@ -41,7 +41,7 @@ main .card{
     width: 45%;
     border-radius: 0.4em;
 }
-main .card .repartidor{
+main .card.repartidor{
     background-image: url(/ProjPizza/img/delivery.jpg);
     display: flex;
     align-items: flex-start;
@@ -59,7 +59,7 @@ main .repartidor p{
 main .repartidor p .blanco{
     color: white;
 }
-main .card .podio{
+main .card.podio{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
