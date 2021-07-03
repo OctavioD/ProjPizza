@@ -16,6 +16,10 @@ header{
 
 header .pizza{
     font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .pizza .blanco{
@@ -46,6 +50,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 70vh;
+    background-color: #E5E5E5;
 }
 
 main .card{
@@ -109,7 +114,16 @@ footer{
 }
 
 footer nav.nav-bot{
+    list-style-type: none;
     color: white;
+}
+
+footer .pizza-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
 }
 
 footer .pizza-bot .blanco{
