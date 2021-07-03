@@ -94,6 +94,12 @@ main .card.podio h2{
     color: red;
 }
 
+main.card.podio article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 main .card.podio article .pizzas h3{
     padding-left: 2.5rem;
     margin-top: 0px;
@@ -125,11 +131,27 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #222222;
+    height: 27vh;
 }
 
 footer nav.nav-bot{
+    display: inline-block;
+    height: 100%;
+}
+
+#lista-bot{
     list-style-type: none;
     color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 1rem;
+    margin: 0px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    height: 89%;
 }
 
 footer .pizza-bot{
